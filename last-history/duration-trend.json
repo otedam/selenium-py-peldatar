@@ -1,3 +1,8 @@
 [ {
+  "buildOrder" : 4,
+  "reportUrl" : "https://otedam.github.io/selenium-py-peldatar/4/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
   "data" : { }
 } ]
