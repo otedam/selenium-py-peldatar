@@ -9,7 +9,9 @@ Például: ? 2005 Nem szökőév. ? 2000 Szökőév. ? 1980 Szökőév. ? 1900 N
 """
 
 def szokoev(year):
-    if year % 4 == 0 or year % 1000 == 0:
+    if year % 4 == 0 and year % 100 != 0:
+        print(year, "Szőkőév")
+    elif year % 400 == 0:
         print(year, "Szőkőév")
     else:
         print(year, "Nem szökőév")
