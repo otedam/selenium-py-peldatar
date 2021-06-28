@@ -1,0 +1,145 @@
+{
+  "uid" : "b3fb8ff76a85fbc6",
+  "name" : "test_add_string__expect_exception",
+  "fullName" : "testproject.test_mymath#test_add_string__expect_exception",
+  "historyId" : "0e93b819cc2e8121f7281dc8e4eaaf78",
+  "time" : {
+    "start" : 1624904353341,
+    "stop" : 1624904353341,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testproject"
+  }, {
+    "name" : "suite",
+    "value" : "test_mymath"
+  }, {
+    "name" : "host",
+    "value" : "fv-az42-961"
+  }, {
+    "name" : "thread",
+    "value" : "2798-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testproject.test_mymath"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "8d699b555b156d8f",
+        "reportUrl" : "https://otedam.github.io/selenium-py-peldatar/14//#testresult/8d699b555b156d8f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624568263676,
+          "stop" : 1624568263676,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "8a057cc8a9456997",
+        "reportUrl" : "https://otedam.github.io/selenium-py-peldatar/13//#testresult/8a057cc8a9456997",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624465781862,
+          "stop" : 1624465781862,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d65da682b08fe1f0",
+        "reportUrl" : "https://otedam.github.io/selenium-py-peldatar/12//#testresult/d65da682b08fe1f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624212471346,
+          "stop" : 1624212471346,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a9a443b7abfebfa2",
+        "reportUrl" : "https://otedam.github.io/selenium-py-peldatar/11//#testresult/a9a443b7abfebfa2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624211821824,
+          "stop" : 1624211821824,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "727447281fcb0d2",
+        "reportUrl" : "https://otedam.github.io/selenium-py-peldatar/10//#testresult/727447281fcb0d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624208488313,
+          "stop" : 1624208488313,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "69770a60bc56797c",
+        "reportUrl" : "https://otedam.github.io/selenium-py-peldatar/9//#testresult/69770a60bc56797c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624186241985,
+          "stop" : 1624186241986,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "daa3ea62eb71a53a",
+        "reportUrl" : "https://otedam.github.io/selenium-py-peldatar/8//#testresult/daa3ea62eb71a53a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624185199145,
+          "stop" : 1624185199145,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2de2aa6cc37efdc3",
+        "reportUrl" : "https://otedam.github.io/selenium-py-peldatar/7//#testresult/2de2aa6cc37efdc3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624184792246,
+          "stop" : 1624184792246,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "de8db47c51b2ce71",
+        "reportUrl" : "https://otedam.github.io/selenium-py-peldatar/6//#testresult/de8db47c51b2ce71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623699002386,
+          "stop" : 1623699002386,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b3fb8ff76a85fbc6.json",
+  "parameterValues" : [ ]
+}
