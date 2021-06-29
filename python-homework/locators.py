@@ -1,12 +1,11 @@
 from selenium import webdriver
-
 driver = webdriver.Chrome()
 
 try:
     driver.get("http://localhost:9999/kitchensink.html")
 
     element_id = driver.find_element_by_id("openwindow")
-    # element_id = driver.find_element_by_xpath('//input[@id="bmwradio"]/..')
+    # element_id = driver.find_element_by_xpath('//input[@id="bmwradio"]/..')  # xpath-szal id-t keresve
     print(element_id.text)
     print(f"ID of element: " + element_id.text)
 

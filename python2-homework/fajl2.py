@@ -18,4 +18,5 @@ with open('adat.txt', 'r') as f2:
         my_list.append(line)
         line = f2.readline()
     print(my_list, end='')
+print(my_list)
 
