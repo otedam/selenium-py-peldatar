@@ -6,6 +6,10 @@ with open("adat.txt", "r") as input:
         for line in input:
             output.write(line)
 
+with open("adat.txt", "r") as file5:
+    with open("adat6.txt", "w") as newfile5:
+        newfile5.write(file5.read())
+
 # with open("adat.txt", "r") as file2:
 #     result = file2.read()
 #     print(result)
