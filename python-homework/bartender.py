@@ -7,7 +7,7 @@ Minden más esetben szolgáld ki. (Írd ki pl. "Parancsoljon, a söre." vagy "Pa
 """
 
 age = int(input("Hány éves vagy? "))
-drink = input("Mit szeretnél inni? ")
+drink = input("Mit szeretnél inni? (sör, kóla)")
 if age < 18 and drink == "sör":
     print("Sajnálom, nem szolgálhatom ki.")
 elif age > 60 and drink == "kóla":
@@ -20,8 +20,17 @@ elif drink != "kóla" and drink != "sör":
 # else:
      print("Csak kólát és sört adunk ki.")
 
-# drink = "sör"
-# if drink != "kóla":
-#     print("nem kóla")
-# else:
-#     print("kóla")
+################## T360-as megoldás:
+eletkor = int(input("Hány éves vagy? "))
+rendeles = input("Mit szeretnél inni? (sör, kóla)")
+
+if rendeles != 'sör' and rendeles != 'kóla':
+    print("Csak sörrel és kólával szolgálhatok.")
+    exit()
+
+if eletkor < 18 and rendeles == 'sör':
+    print('Sajnos nem adhatok.')
+elif eletkor >= 60 and rendeles == 'kóla':
+    print('Sajnos nem adhatok, mert megemeli a vérnyomásod!')
+else:
+    print(f'Parancsolj, itt a {rendeles}')

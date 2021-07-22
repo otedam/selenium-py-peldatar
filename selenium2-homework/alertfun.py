@@ -5,7 +5,6 @@
 # A prompt-nál teszteld le a be, hogy a beírt érték megjelenik-e egy paragraf tagben, miután eltűnt az alert.
 # A megoldást egy alertfun.py nevű fileban kell beadnod.
 import time
-
 from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 

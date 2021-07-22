@@ -11,20 +11,24 @@
 # print(my_list)
 
 ####   Soronként beolvasva és összefűzve:
-with open('adat.txt', 'r') as f2:
-    # Read and print the entire file line by line
-    line = f2.readline()
-    my_list = []
-    while line != '':  # The EOF char is an empty string
-        my_list.append(line)
-        line = f2.readline()
-    print(my_list, end='')
-
-print()
+# with open('adat.txt', 'r') as f2:
+#     # Read and print the entire file line by line
+#     line = f2.readline()
+#     my_list = []
+#     while line != '':  # The EOF char is an empty string
+#         my_list.append(line)
+#         line = f2.readline()
+#     print(my_list, end='')
+#
+# print()
 
 ####  Egyben beolvasva az össze sort, majd kiírva
-with open("adat.txt") as f2:
-    newf2 = f2.readlines()
-    print(newf2)
+# with open("adat.txt") as f2:
+#     newf2 = f2.readlines()
+#     print(newf2)
 
-#
+my_str = ''
+with open("adat.txt") as f2:
+    newf2 = f2.read()
+    my_str += newf2
+    print(my_str)
